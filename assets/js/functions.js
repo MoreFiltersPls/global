@@ -84,7 +84,7 @@ $( document ).ready(function() {
 
   // determine scroll, swipe, and arrow key direction
   function updateHelper(param) {
-
+    print(param);
     /*
     var curActive = $('.side-nav').find('.is-active'),
         curPos = $('.side-nav').children().index(curActive),

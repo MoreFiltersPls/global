@@ -85,6 +85,7 @@ $( document ).ready(function() {
   // determine scroll, swipe, and arrow key direction
   function updateHelper(param) {
 
+    /*
     var curActive = $('.side-nav').find('.is-active'),
         curPos = $('.side-nav').children().index(curActive),
         lastItem = $('.side-nav').children().length - 1,
@@ -113,6 +114,7 @@ $( document ).ready(function() {
         updateContent(curPos, nextPos, lastItem);
       }
     }
+    */
 
   }
 

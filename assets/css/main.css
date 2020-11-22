@@ -743,8 +743,9 @@ body{
     display:-webkit-flex;
     display:-ms-flexbox;
     display:flex;
-    width:960px;
-    max-width:80%;
+    width:80%;
+    /*width:960px;
+    max-width:80%;*/
     
     height:100%;
     overflow:auto;

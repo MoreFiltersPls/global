@@ -1003,6 +1003,7 @@
         console.log('index: ' + s);
         console.log('length: ' + r);
         // TODO only swipe up/down in works if all works have been seen
+        /*
         "swipeup" === t.type || 40 === t.keyCode || t > 0 ?
             // up
             s !== r ?
@@ -1011,6 +1012,7 @@
             ("swipedown" === t.type || 38 === t.keyCode || 0 > t) &&
             (0 !== s ?
                 (o = s - 1, e(o), i(s, o, r)) : (o = r, e(o), i(s, o, r)))
+                */
     }
 
     function e(t) {

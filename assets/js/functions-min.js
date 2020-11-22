@@ -1057,6 +1057,7 @@
         a = null;
     $(this).on("mousewheel DOMMouseScroll", function(e) {
         console.log('onScroll');
+        /*
         if (!$(".outer-nav").hasClass("is-vis")) {
             e.preventDefault();
             var i = e.originalEvent.wheelDelta ? -e.originalEvent.wheelDelta : 20 * e.originalEvent.detail;
@@ -1066,6 +1067,7 @@
                 o = !0
             }, 800), t(-1))
         }
+        */
     }), $(".side-nav li, .outer-nav li").click(function() {
         if (!$(this).hasClass("is-active")) {
             var t = $(this),

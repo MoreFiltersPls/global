@@ -746,7 +746,7 @@ body{
     width:960px;
     max-width:80%;
     
-    height:200%;
+    height:100%;
     overflow:auto;
     -webkit-box-orient:vertical;
     -webkit-box-direction:normal;

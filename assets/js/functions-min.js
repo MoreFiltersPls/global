@@ -1000,6 +1000,8 @@
             s = $(".side-nav").children().index(n),
             r = $(".side-nav").children().length - 1,
             o = 0;
+        console.log('index: ' + s);
+        console.log('length: ' + r);
         "swipeup" === t.type || 40 === t.keyCode || t > 0 ? s !== r ? (o = s + 1, e(o), i(s, o, r)) : (e(o), i(s, o, r)) : ("swipedown" === t.type || 38 === t.keyCode || 0 > t) && (0 !== s ? (o = s - 1, e(o), i(s, o, r)) : (o = r, e(o), i(s, o, r)))
     }
 
@@ -1057,7 +1059,7 @@
         a = null;
     $(this).on("mousewheel DOMMouseScroll", function(e) {
         console.log('onScroll');
-        /*
+        
         if (!$(".outer-nav").hasClass("is-vis")) {
             e.preventDefault();
             var i = e.originalEvent.wheelDelta ? -e.originalEvent.wheelDelta : 20 * e.originalEvent.detail;
@@ -1067,7 +1069,7 @@
                 o = !0
             }, 800), t(-1))
         }
-        */
+        
     }), $(".side-nav li, .outer-nav li").click(function() {
         if (!$(this).hasClass("is-active")) {
             var t = $(this),

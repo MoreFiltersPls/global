@@ -996,7 +996,7 @@
     }) : "undefined" != typeof module && module.exports ? module.exports = lt : t[i] = lt
 }(window, document, "Hammer"), $(document).ready(function() {
     function t(t) {
-        //var n = $(".side-nav").find(".is-active"),
+        var n = $(".side-nav").find(".is-active"),
             s = $(".side-nav").children().index(n),
             r = $(".side-nav").children().length - 1,
             o = 0;

@@ -743,10 +743,10 @@ body{
     display:-webkit-flex;
     display:-ms-flexbox;
     display:flex;
-    width:90%;
     /*width:960px;
     max-width:80%;*/
-    left:10%;
+    width: 89%;
+    left: 9%;
     height:80%;
     top:120px;
     bottom:120px;
